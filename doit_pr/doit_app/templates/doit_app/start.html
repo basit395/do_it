@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  padding: 10px;
+}
+td, h2 {
+  text-align: center;
+}
+th {
+  background-color: black;
+  color: white;
+  </style>
+</head>
+
+<h2>  Pick a new task, Good Luck</h2>
+<table style="width:100%">
+  <tr>
+    <th>Total No of Tasks</th>
+    <th>Task No</th>
+    <th>Task detail</th>
+    <th>Task Validition Age</th>
+  </tr>
+  <tr>
+    <td>{{ tot }}</td>
+    <td>{{ n }}</td>
+    <td>{{ task }}</td>
+    <td>{{task_age}}</td>
+  </tr>
+</table>
+
+<br>
+<div class="card w-50">
+  <div class="card-body">
+    <h5 class="card-title">To have a new task</h5>
+    <p class="card-text">We have various collection of excited tasks</p>
+    <a href="http://127.0.0.1:8000/doit_app/start/" class="btn btn-primary">Click</a>
+  </div>
+</div>
+
+
+<html>
